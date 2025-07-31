@@ -54,3 +54,10 @@ FILE_SUFFIX= "llamacpp"
 
 ## Citations
 Dataset used: https://huggingface.co/datasets/getomni-ai/ocr-benchmark
+
+TestsPart1/src/ocrMethods/paddleocrRunner.py  lines 37-84:
+
+    Code adapted from: sparrow
+    Source: https://github.com/katanaml/sparrow/
+    License: GPL-3.0
+    Accessed: July 27, 2025
