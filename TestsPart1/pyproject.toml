@@ -7,15 +7,13 @@ requires-python = ">=3.11"
 dependencies = [
     "datasets[vision]>=4.0.0",
     "dotenv>=0.9.9",
-    "easyocr>=1.7.2",
     "numpy>=2.3.1",
-    "ollama>=0.5.1",
     "openai>=1.97.1",
     "opencv-python>=4.11.0.86",
-    "paddleocr>=3.1.0",
-    "paddlepaddle-gpu>=3.0.0.dev20250719",
+    "paddleocr==3.1.0",
+    "paddlepaddle-gpu==3.0.0.dev20250719",
     "pillow>=11.2.1",
-    "pytesseract>=0.3.13",
+    "pytesseract==0.3.13",
 ]
 [tool.uv]
 prerelease = "allow"
