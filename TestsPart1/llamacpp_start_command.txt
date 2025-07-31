@@ -1,0 +1,9 @@
+llama-server -hf model-here -ngl 999 --host 0.0.0.0 -n 2000
+
+example:
+llama-server -hf lmstudio-community/Qwen2.5-VL-7B-Instruct-GGUF:Q8_0 -ngl 999 --host 0.0.0.0 -n 2000
+
+
+Models used for testing:
+lmstudio-community/Qwen2.5-VL-7B-Instruct-GGUF:Q8_0
+google_gemma-3-12b-it-qat-q4_0-gguf_gemma-3-12b-it-q4_0.gguf
